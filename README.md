@@ -29,7 +29,7 @@ Clique em **Run Analysis** para:
 ![](figures/image3.png)
 ![](figures/image4.png)
 - Estimar a altura do dossel e o percentual de área com árvores altas.
-- ![](figures/image5.png)
+![](figures/image5.png)
 
 ## Metodologia
 
