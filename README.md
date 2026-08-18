@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/lifecycle-maturing-green.svg" />
 </p>
 
-Aplicativo desenvolvido por Cassiano Messias, Guilherme Correia e Miguel Cunha para a análise interativa da cobertura florestal a partir de imagens Sentinel-2, com o objetivo de comparar a porcentagem dessa cobertura entre áreas naturais e antrópicas em diferentes cenários, voltado para a FAO e o Prodes.
+Aplicativo desenvolvido por Cassiano Messias, Guilherme Correia e Miguel Cunha para a análise interativa da cobertura florestal a partir de imagens Sentinel-2, com o objetivo de comparar a porcentagem dessa cobertura entre áreas naturais e antrópicas em diferentes cenários, voltado para a Organização das Nações Unidas para a Alimentação e a Agricultura (FAO) e o Prodes.
 
 ## Como usar
 
