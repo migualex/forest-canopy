@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/lifecycle-maturing-green.svg" />
 </p>
 
-Técnica de Cassiano Messias, Guilherme Correia e Miguel Cunha no GEE para análise interativa de cobertura florestal a partir de imagens Sentinel-2. As funcionalidades incluem classificação não supervisionada (K-Means), estimativa de altura de dossel (Meta Canopy Height), cálculo de estatísticas por área de interesse (ROI) e visualização dinâmica.
+Aplicativo de Cassiano Messias, Guilherme Correia e Miguel Cunha no GEE para análise interativa de cobertura florestal a partir de imagens Sentinel-2. As funcionalidades incluem classificação não supervisionada (K-Means), estimativa de altura de dossel (Meta Canopy Height), cálculo de estatísticas por área de interesse (ROI) e visualização dinâmica.
 
 ## Como usar
 
