@@ -14,15 +14,22 @@ Aplicativo desenvolvido no Google Earth Engine para análise interativa de cober
 - Informe Latitude, Longitude e o tamanho da área de interesse (em metros), ou
 - Desenhe um polígono diretamente no mapa.
 
+![](figures/image1.png)
+
 ### 2. Configurar a busca do Sentinel-2
 - Defina a data inicial e a data final (formato `YYYY-MM-dd`).
 - Defina o percentual máximo de nuvens nas imagens.
+
+![](figures/image2.png)
 
 ### 3. Análise
 Clique em **Run Analysis** para:
 - Carregar o mosaico Sentinel-2 mais adequado para o ROI;
 - Calcular o NDVI e classificar a cobertura florestal (K-Means);
+![](figures/image3.png)
+![](figures/image4.png)
 - Estimar a altura do dossel e o percentual de área com árvores altas.
+- ![](figures/image5.png)
 
 ## Metodologia
 
