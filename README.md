@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/lifecycle-maturing-green.svg" />
 </p>
 
-Aplicativo desenvolvido por Cassiano Messias, Guilherme Correia e Miguel Cunha no GEE para análise interativa de cobertura florestal a partir de imagens Sentinel-2. As funcionalidades incluem classificação não supervisionada (K-Means), estimativa de altura de dossel (Meta Canopy Height), cálculo de estatísticas por área de interesse (ROI) e visualização dinâmica.
+Técnica de Cassiano Messias, Guilherme Correia e Miguel Cunha no GEE para análise interativa de cobertura florestal a partir de imagens Sentinel-2. As funcionalidades incluem classificação não supervisionada (K-Means), estimativa de altura de dossel (Meta Canopy Height), cálculo de estatísticas por área de interesse (ROI) e visualização dinâmica.
 
 ## Como usar
 
@@ -39,7 +39,7 @@ A classificação não supervisionada, baseada no NDVI `(B8 - B4) / (B8 + B4)` c
 
 1. Amostragem de até 5000 pixels de NDVI na ROI (10 m de resolução, `seed: 42`).
 2. Treinamento de um `ee.Clusterer.wekaKMeans(2)` (floresta e não-floresta) sobre as amostras.
-4. Identificação do cluster "floresta" como aquele com **maior NDVI médio**.
+4. Identificação do cluster "floresta" como aquele com maior NDVI médio.
 5. Cálculo do percentual de floresta via histograma de frequência dos clusters.
 
 O threshold é a média entre os dois centros de cluster e serve apenas como referência, os grupos são definidos estatisticamente a cada execução, podendo variar entre AOIs e datas distintas.
